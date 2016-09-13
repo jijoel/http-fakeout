@@ -1,0 +1,49 @@
+{
+    "name": "jijoel/HttpFakeout",
+    "type": "library",
+    "description": "self initializing fake for php",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/jijoel/http-fakeout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Hatch",
+            "email": "jijoel@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "~4.0||~5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpFakeout\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HttpFakeout\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "format": "phpcbf --standard=psr2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "secure-http": true
+    }
+}

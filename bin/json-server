@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo npm install -g json-server
+wget http://jsonplaceholder.typicode.com/db -O json-server/db.json
+json-server json-server/db.json
