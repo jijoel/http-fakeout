@@ -58,7 +58,7 @@ HttpFakeout currently can not deal with asynchronous methods, or asynchronous me
 
 Development
 ============
-In order to do integration testing for HttpFakeout, we need to reach a live api. Fortunately, we can install and use a fake api locally. [https://github.com/typicode/json-server](JSON Server) will give us a "full fake REST API with zero coding in less than 30 seconds." To install it, and the data that we use during the integration testing, run the following commands from the project root:
+In order to do integration testing for HttpFakeout, we need to reach a live api. Fortunately, we can install and use a fake api locally. [JSON Server](https://github.com/typicode/json-server) will give us a "full fake REST API with zero coding in less than 30 seconds." To install it, and the data that we use during the integration testing, run the following commands from the project root:
 
     sudo npm install -g json-server
     wget http://jsonplaceholder.typicode.com/db -O json-server/db.json
