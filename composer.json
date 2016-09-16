@@ -1,5 +1,5 @@
 {
-    "name": "jijoel/HttpFakeout",
+    "name": "jijoel/http-fakeout",
     "type": "library",
     "description": "self initializing fake for php",
     "keywords": [
